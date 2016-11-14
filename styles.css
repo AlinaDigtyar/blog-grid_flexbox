@@ -1,0 +1,91 @@
+body {
+	background-color: #e2e7ec;
+}
+
+h2 {
+	font-family: "HansKendrick Heavy", sans-serif;
+}
+
+time {
+	font-family: "HansKendrick Medium", sans-serif;
+	text-transform: uppercase;
+}
+
+.ba-container {
+	width: 1200px;
+}
+
+.ba-flex-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 1290px;
+}
+
+.ba-box-small {
+	flex-basis: 360px;
+}
+
+.ba-box-large {
+	flex-basis: 755px;
+}
+
+.ba-box-large .ba-content {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	color: #fff;
+}
+
+.ba-box-large .ba-content {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.ba-box-small img {
+	display: block;
+}
+
+.ba-box-small .ba-content {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.ba-box-1 {
+	background: url(images/item1.jpg) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.ba-loader {
+	flex-basis: 100%;
+	text-align: center;
+	font-family: "HansKendrick Medium", sans-serif;
+	text-transform: uppercase;
+	color: #9fa9b5;
+}
+
+time {
+	display: block;
+	min-height: 18px;
+}
+
+.ba-box h2 {
+	margin-bottom: 65px;
+	text-transform: uppercase;
+	font-size: 22px;
+	line-height: 1.36;
+}
+
+.ba-box-1 .ba-content {
+	padding-bottom: 60px;
+	padding-left: 40px;
+}
+

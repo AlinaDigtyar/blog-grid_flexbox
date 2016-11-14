@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog grid</title>
+    <link rel="stylesheet" href="../fonts.css"> <!-- 2 priority -->
+    <link rel="stylesheet" href="styles.css"> <!-- 1 priority -->
+</head>
+<body>
+ <div class="ba-container">
+     <section class="ba-flex-container">
+         <article class="ba-box ba-box-1 ba-box-large">
+             <div class="ba-content">
+                 <time datetime="November 28, 2015" pubdate="pubdate">November 28, 2015</time>
+                 <h2>Fantastic Designs Of 2015<br>Concept Cars</h2>
+             </div>
+         </article>
+         <article class="ba-box ba-box-2 ba-box-small">
+            <img src="images/item2.jpg" alt="Post 2">
+            <div class="ba-content">
+                <time datetime="November 24, 2015" pubdate="pubdate">November 24, 2015</time>
+                <h2>How To Find Design Inspiration In The Simple Things Around You</h2>
+                <address><img src="images/author.png" alt="Author"></address>
+            </div>
+        </article>
+        <article class="ba-box ba-box-3 ba-box-small">
+            <img src="images/item3.jpg" alt="Post 3">
+            <div class="ba-content">
+                <time datetime="November 18, 2015" pubdate="pubdate">November 18, 2015</time>
+                <h2>The Only Guide To Choosing Website Photos You’ll Ever Need</h2>
+                <address><img src="images/author.png" alt="Author"></address>
+            </div>
+        </article>
+        <article class="ba-box ba-box-4 ba-box-small">
+            <img src="images/item4.jpg" alt="Post 4">
+            <div class="ba-content">
+                <time datetime="November 28, 2015" pubdate="pubdate"></time>
+                <h2>Growth Hack Your Way to a Successful Freelance Career</h2>
+                <address><img src="images/author.png" alt="Author"></address>
+            </div>
+        </article>
+        <article class="ba-box ba-box-5 ba-box-small">
+            <img src="images/item5.jpg" alt="Post 5">
+            <div class="ba-content">
+                <time datetime="November 08, 2015" pubdate="pubdate">November 08, 2015</time>
+                <h2>Get 80% Off DSLR Photography Course Bundle</h2>
+                <address><img src="images/author.png" alt="Author"></address>
+            </div>
+        </article>
+        <div class="ba-box ba-loader">
+            <img src="images/loader.png" alt="Loader"><span>Loading new content</span>
+        </div>
+    </section>
+</div>
+</body>
+</html>
